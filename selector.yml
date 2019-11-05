@@ -1,0 +1,20 @@
+product_title:
+    css: h1.prod-ProductTitle
+    type: Text
+current_price:
+    css: 'span.hide-content span.price-group span'
+    multiple: true
+    type: Text
+original_price:
+    css: 'div.price-old span.price-group span'
+    multiple: true
+    type: Text
+product_main_image:
+    css: div.hover-zoom-hero-image-container
+    type: HTML
+product_description:
+    css: div.about-desc
+    type: Text
+product_images:
+    css: 'li.slider-slide:nth-of-type(n+2) img.prod-alt-image-carousel-image, div.prod-alt-image-wrapper ul.slider-list, div.Grid-col.u-size-1-2-m:nth-of-type(2), div.prod-alt-image-wrapper div.slider, div.carousel-container-position--bottom > div'
+    type: HTML
